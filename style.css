@@ -122,12 +122,12 @@ p{
     margin: auto;
 }
 .blog-img{
-    max-width: 350px;
+    max-width: 450px;
     display: block;
     /* margin: auto; */
 }
 .blog-img img{
-    width: 31rem;
+    width: 100%;
 }
 
 .hero .hero-heading {
