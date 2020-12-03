@@ -19,7 +19,10 @@ body {
 hr {
     margin: 2rem 0rem;
 }
-
+p{
+    text-align: justify;
+    line-height: 1.8rem;
+}
 /** spaces **/
 
 .margin-md {
@@ -35,9 +38,15 @@ hr {
     max-width: 600px;
     margin: auto;
 }
+.container h1{
+    margin: 1rem 0rem;
+}
 .card{
     border-radius: 1rem;
     box-shadow: 2px 2px 8px grey;
+}
+.left-border{
+    border-left: 5px solid var(--dark-gray);
 }
 /** links **/
 .link {
@@ -105,13 +114,20 @@ hr {
 .hero {
     padding: 2rem;
     padding-top: 5rem;
-
 }
 
 .hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
+}
+.blog-img{
+    max-width: 350px;
+    display: block;
+    /* margin: auto; */
+}
+.blog-img img{
+    width: 31rem;
 }
 
 .hero .hero-heading {
