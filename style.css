@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #057cfe;
-    --off-white: #F3F4F6;
+    --off-white: #f1f1f1;
     --dark-gray: #49565c;
 }
 
@@ -23,7 +23,7 @@ hr {
 
 /** container **/
 .container {
-    padding: 0rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .container-center {
@@ -122,7 +122,6 @@ hr {
 
 .section h1 {
     text-align: center;
-
 }
 
 .ow {
