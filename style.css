@@ -14,14 +14,15 @@
 
 body {
     font-family: 'Fira Sans', sans-serif;
+    font-size: 0.8rem;
 }
 
 hr {
     margin: 2rem 0rem;
 }
 p{
-    text-align: justify;
-    line-height: 1.8rem;
+    text-align: center;
+    line-height: 1.2rem;
 }
 /** spaces **/
 
@@ -35,15 +36,31 @@ p{
 }
 
 .container-center {
-    max-width: 600px;
+    /* max-width: 600px; */
+    width: 100%;
     margin: auto;
 }
 .container h1{
     margin: 1rem 0rem;
 }
+.div__element_center{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.para__elements{
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+}
 .card{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
     border-radius: 1rem;
     box-shadow: 2px 2px 8px grey;
+}
+.card p{
+    text-align: left;
 }
 .left-border{
     border-left: 5px solid var(--dark-gray);
@@ -51,12 +68,12 @@ p{
 /** links **/
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
     max-width: 125px;
 }
 
 .link-primary {
-    display: block;
+    display: inline-block;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
@@ -64,7 +81,7 @@ p{
 }
 
 .link-secondary {
-    display: block;
+    display: inline-block;
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
@@ -89,7 +106,7 @@ p{
 .navigation {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border-bottom-left-radius: 1rem;
 }
 
@@ -112,19 +129,20 @@ p{
 /** header **/
 
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding:0 2rem;
 }
 
 .hero .hero-img {
-    max-width: 350px;
     display: block;
-    margin: auto;
+    margin:0 auto;
+}
+.hero img{
+    width: 90%;
+    max-height: 50rem;
 }
 .blog-img{
     max-width: 450px;
     display: block;
-    /* margin: auto; */
 }
 .blog-img img{
     width: 100%;
